@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            display: inline-block;
+            margin:200px 0 0 210px;
+            list-style-type: none;
+            padding:10px;
+            margin:10px;
+        }
+        #link{
+            width:380px;
+            background-color: rgb(191, 191, 238);
+            border-bottom:solid 3px blue;
+            margin:20px 100px 80px 40px;
+            padding:10px 20px 10px 100px;
+        }
+        #link li{
+            display:inline; 
+            margin:0 5px;
+        }
+        #menu{
+            display: inline-block;
+            margin-left:60px;
+            padding:0;
+            font-size: 14px;
+        }
+        #menu li{
+            margin: 0 5px;
+            display:inline;
+        }
+        #menu-container{
+            width:800px;
+            border-bottom: 1px solid #cccccc;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        #visit_info{
+            width:800px;
+            padding-bottom:5px;
+            border-bottom:solid 1px #cccccc;
+        }
+        #intro{
+            width:750px;
+            margin:20px;
+            padding:10px;
+            border:solid 1px #bcd3be;
+            background-color:#f6fdf7;
+        }
+        p{
+            width:700px;
+            margin:20px;
+            padding:10px;
+        }
+        h1{
+            margin:20px 0 0 10px;
+        }
+        h2{
+            margin:20px 0 0 10px;
+            font-style:oblique;
+        }
+        h3{
+            margin:20px 0 0 20px;
+            color:#e8b9da;
+        }
+        .park {
+            display:flex;
+        }
+        .road{
+            width: 200px;
+            text-align:center;
+        }
+        .road img{
+            width:150px;
+            height:100px;
+        }
+        .name {
+            font-weight: bold;
+            color:#cf8ebb;
+        }
+        .comment {
+            color: rgb(0, 0, 0);
+        }
+        #container{
+            width: 800px;
+        }
+        .note{
+            width:750px;
+            margin:20px;
+            padding:10px;
+        }
+        .bold{
+            font-weight:bold;
+        }
+        a:link{
+            color:#0000ff;
+            text-decoration:none;
+        }
+        a:hover{
+            color:#ff0000;
+            font-weight:bold;
+        }
+        a:active{
+            color:#00ffff;
+        }
+    </style>
+</head>
+<body>
+    <ul id="link">
+        <li><a href="4_15.html" target="blank">책 소개 |</a></li>
+        <li><a href="4_15_part02.html" target="blank">인라인과 블록  |</a></li>
+        <li><a href="4_15_boxes.html" target="blank">블록 특성</a></li>
+    </ul>
+    <div id="menu-container">
+        <ul id="menu">
+            <li> 한라산국립공원 | </li>
+            <li> 방문안내 | </li>
+            <li> 관람안내 | </li>
+            <li> 개인/단체 체험 | </li>
+            <li> 고객센터 | </li>
+            <li> 공지사항</li>
+        </ul>
+    </div> 
+
+    <div>
+        <img src="jeju.jpeg" width="600" height="300">
+    </div>
+
+    <h1 id="visit_info">+한라산국립공원</h1>
+
+    <h2>1. 공원소개</h2>
+    <ul id="intro">
+        <li>한라산국립공원은 백록담을 중심으로 153.444㎢에 달하며 91.654㎢가 천연보호구역으로 지정되었다.</li>
+        <li>백록담, 영실기암 등의 화산지형, 물장오리 분화구습지, 1100고지 습지 등의 고산습지, 산벌른내, 탐라계곡 등의 용암하천지형 등은 한라산의 독특한 지형 지질적 가치를 보여주고 있으며,</li>
+        <li>온대, 한대, 아고산대의 수직적 분포에 따른 다양한 식물상은 생태계의 보고 한라산의 가치를 높여주고 있다.</li>
+    </ul>
+
+    <div id="container">
+        <h2>2. 탐방로 </h2>
+        <p>세계자연유산 한라산국립공원을 찾아주셔서 감사합니다. <br>
+        제주도의 중심부에 우뚝 솟은 한라산은 남한에서 제일 높은 해발 1,950m로서 산정상에 자리한 화구호인 백록담, 기암절벽으로 이루어진 영실기암 등은 사계절 아름다운 경관을 자랑하며 탐방객들을 맞이하고 있습니다. 
+        </p>
+
+        <div class="park">
+            <ul class="road">
+                <li><img src="jeju2.png"></li>
+                <li class="name">어리목탐방로</li>
+                <li class="comment">윗세오름 2h,<br> 남벽분기점 3h <br> - 6.8Km</li>
+            </ul>
+
+            <ul class="road"> 
+                <li><img src="jeju3.png"></li>
+                <li class="name">영실탐방로</li>
+                <li class="comment">윗세오름 1h 30m, <br> 남벽분기점 2h 30m <br>- 5.8Km</li>
+            </ul>
+
+            <ul class="road">
+                <li><img src="jeju4.png"></li>
+                <li class="name">성판악탐방로(탐방예약 필수)</li>
+                <li class="comment">진달래밭 3h, <br> 정상 4h 30m <br> - 9.6Km</li>
+            </ul>
+        
+            <ul class="road">
+                <li><img src="jeju5.png"></li>
+                <li class="name">어승생악탐방로</li>
+                <li class="comment">정상 30m <br> - 1.3Km</li>
+            </ul>
+        </div>
+        <div class="park">
+            <ul class="road">
+                <li><img src="jeju6.png"></li>
+                <li class="name">돈내코탐방로</li>
+                <li class="comment">남벽분기점 3h 30m <br> - 7Km</li>
+            </ul>
+
+            <ul class="road">
+                <li><img src="jeju7.png"></li>
+                <li class="name">석굴암탐방로</li>
+                <li class="comment">석굴암 50m <br> - 1.5Km</li>
+            </ul>
+
+            <ul class="road">
+                <li><img src="jeju8.png"></li>
+                <li class="name">관음사탐방로(탐방예약 필수)</li>
+                <li class="comment">삼각봉대피소 3h 20m, <br> 정상 5h <br> - 8.7Km</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>3. 탐방시 유의사항</h2>
+    <ol class="note">
+        <li>반드시 지정된 탐방로를 이용해야 하며, <span class="bold">계절별 탐방로 통제시간이 정해져 있으므로</span> 탐방 전 확인하시기 바랍니다.</li>
+        <li>기상청 기상특보 시 탐방이 통제됩니다.</li>
+        <li>국립공원 구역 내에서 <span class="bold">식물, 곤충, 토석채취 등 일체의 자연훼손을 금지</span>하며 위반 시 관련법에 의거 처벌됩니다.</li>
+        <li>탐방 도중 <span class="bold">안전사고나 위급한 상황이 발생하면 한라산국립공원사무소나 119구조대</span>로 즉시 신고하시고 탐방로 주변에 설치된 <span class="bold">탐방로 위치표시판의 번호를 확인하여 알려주십시오.</span></li>
+        <li>한라산은 날씨의 변화가 심한 지역이므로 <span class="bold">비상식량</span>과 여벌옷을 준비해야 하며 겨울철 탐방 시에는 <span class="bold">방한복, 아이젠, 장갑, 따뜻한 물, 랜턴</span> 등을 준비하시기 바랍니다.</li>
+        <li>한라산국립공원에서 <span class="bold">야영과 취사가 가능한 곳은 관음사지구 야영장이며</span> 그 외의 지역은 야영과 취사가 엄격히 금지하고 있습니다.</li>
+        <li>한라산국립공원 탐방 시 <span class="bold">대중교통수단을 적극적으로 이용</span>해 주시고 공원 내 주차 시에는 귀중품 도난 및 차량훼손에 각별히 주의하시기 바랍니다.</li>
+        <li>한라산국립공원은 세계자연유산지구이므로 <span class="bold">탐방예절 지키기, 자기쓰레기 되가져오기, 배낭무게 줄이기</span> 등을 실천하여 탐방문화 정착에 적극적으로 앞장서 주시기 바랍니다.</li>
+        <li>한라산국립공원에서는 음주, 흡연 등의 행위가 금지되어 있습니다.</li>
+        <li> <span class="bold">산행 시 구두, 샌달, 슬리퍼, 하이힐 등 등산에 부적절한 신발은 피하고, 안전한 산행을 위해 등산화를 착용</span> 바랍니다.</li>
+        <li><span class="bold">공원 내 음악을 들을 때는 산행하는 다른 탐방객에게  방해가 되지않도록 해주시기</span> 바랍니다.</li>
+    </ol>
+</body>
+</html>
